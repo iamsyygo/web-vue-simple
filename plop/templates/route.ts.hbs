@@ -1,0 +1,5 @@
+import { RouteRecordRaw } from 'vue-router'; const component = () =>
+import('./index.vue'); const route: RouteRecordRaw = { path: '/{{enPath}}',
+name: '{{properCase enPath}}', component, meta: { title: '{{title}}', keepAlive:
+{{isKeepAlive}}, requireAuth:
+{{isAuth}}, }, }; export default route;

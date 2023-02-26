@@ -25,6 +25,8 @@
   "plugins": ["vue", "@typescript-eslint"],
   "rules": {
     "vue/no-multiple-template-root": "off",
+    "vue/multi-word-component-names": "off",
+    "@typescript-eslint/no-var-requires": "off",
     // Prettier
     "prettier/prettier": [
       "error",

@@ -1,0 +1,5 @@
+import { defineStore } from 'pinia'; // import { State } from './type.ts';
+export const use{{properCase name}}Store = defineStore('{{name}}', { state: /*
+State */ () => { return { count: 0, // data: null as UserList | null, }; },
+actions: { increment() { this.count++; }, async registerUser() { try { // do
+something } catch (error) { // do something } }, }, });
